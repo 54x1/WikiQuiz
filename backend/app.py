@@ -33,6 +33,10 @@ trivia_questions = [
     # Add more questions here or generate dynamically
 ]
 
+@app.route('/', methods=['GET'])
+def backend_loded():
+     return jsonify({"message": "WikiQuiz API"})
+
 @app.route('/get-question', methods=['GET'])
 def get_question():
     try:
