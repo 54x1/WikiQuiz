@@ -12,6 +12,6 @@ Set up locally windows pc
  4) venv\Scripts\activate #on windows
  5) python app.py
 
-Notes:
+Important Notes:
 - replit only runs the frontend
-- replit backend only needs step 1,2,5
+- replit backend only needs step 1,5

@@ -84,7 +84,7 @@ export default {
       quizStarted: false,
       url: 'https://f750ca24-c3c9-41d9-85e2-4eaaf20945b2-00-207ptbisdfnnt.sisko.replit.dev',
       qrCodeUrl: '',
-      title: 'WikiQuiz',
+      title: 'WikiKwiz',
       defaultText: {
         selectLanguage: 'Select Language',
         enterTopic: 'Enter a Topic Below',
