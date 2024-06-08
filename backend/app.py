@@ -48,7 +48,9 @@ The options should be unambiguous.
 The question should also briefly mention the general topic of the text so that it can be understood in isolation.
 Each question should not give hints to answer the other questions.
 Include challenging questions, which require reasoning.
-respond with JSON only, no markdown or descriptions, ensure all options are separated and display the correct answer as the correct option.
+respond with JSON only, no markdown or descriptions.
+Ensure all options are separated and correct answer text response is one of the  separeted options listed.
+
 example JSON format you should absolutely follow:
   [
     {
@@ -103,7 +105,7 @@ def generate_trivia():
     )
 
     trivia_questions_json = chat_completion.choices[0].message.content
-    print("trivia_questions", trivia_questions)
+    print("trivia_questions", trivia_questions_json)
     try:
       trivia_questions = json.loads(trivia_questions_json)
       if isinstance(trivia_questions, list):
