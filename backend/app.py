@@ -42,7 +42,7 @@ system_prompt = {
     "role":
     "system",
     "content":
-    """Given the following prompt, create 4 multiple choice quizzes in JSON format.
+    """Given the following prompt, create 5 multiple choice quizzes in JSON format.
 Each question should have 4 different options, and only one of them should be correct.
 The options should be unambiguous.
 The question should also briefly mention the general topic of the text so that it can be understood in isolation.

@@ -14,7 +14,7 @@
          {{ option }}
        </button>
      </div>
-     <button v-if="showNextButton" class="btn btn-primary mt-4" @click="nextQuestion">Next</button>
+     <button v-if="showNextButton" class="btn btn-primary mt-4" @click="nextQuestion">{{nextButtonText}}</button>
    </div>
  </template>
 
@@ -24,7 +24,8 @@
      question: Object,
      correctAnswer: String,
      showNextButton: Boolean,
-     feedback: Object
+     feedback: Object,
+     nextButtonText: Object
    },
    data() {
      return {
