@@ -26,7 +26,7 @@ def get_wikipedia_page(search_query):
   if page_py.exists():
     #print(f'Title: {page_py.title}')
     #print(f'Summary: {page_py.summary}')
-    # print(f'Summary: {page_py.text}')
+    print(f'Summary: {page_py.text}')
     #print(f'Full Url: {page_py.fullurl}')
     return page_py.summary
 
