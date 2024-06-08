@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{vue,js,ts,jsx,tsx}'],
+  purge: ["./public/index.html", "./src/**/*.{vue,js}"],
+  mode: 'jit',
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -8,8 +8,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [
-    require('daisyui'),
-  ],
-}
-
+  plugins: [require("daisyui")],
+};

@@ -2,3 +2,4 @@ Flask
 Flask-CORS
 python-dotenv
 groq
+wikipedia-api

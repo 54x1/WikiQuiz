@@ -1,11 +1,17 @@
-Frontend
-1) cd /frontend
-2) npm i
-3) npm run serve
+Set up locally windows pc
 
-Backend
-1) cd /backend
-2) pip install -r requirements.txt
-3) python -m venv venv
-4) venv\Scripts\activate #on windows
-5) python app.py
+-Frontend
+ 1) cd ./frontend
+ 2) npm i
+ 3) npm run serve
+
+-Backend
+ 1) cd ./backend
+ 2) pip install -r requirements.txt
+ 3) python -m venv venv
+ 4) venv\Scripts\activate #on windows
+ 5) python app.py
+
+Notes:
+- replit only runs the frontend
+- replit backend only needs step 1,2,5

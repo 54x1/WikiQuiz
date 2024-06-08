@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import 'daisyui';
 
-
-#app {
-    color: #fff;
+#app{
+    color: #3a87fe
 }
